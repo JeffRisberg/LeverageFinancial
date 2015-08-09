@@ -1,0 +1,46 @@
+Friday Night
+
+-learned about Macy's API
+-created the GitHub repo for Leverage Financial
+-learned how to set the foreground and background colors of a widget
+-learned that the foreground and background specifications do not cascade down to children, you must set each
+-learned about Android Grid widget
+-learned how to change from one activity/screen to another
+-learned that the Android layout editor shows all of the attributes of the widget, not just the important ones, and
+   there is no good way to search for a specific attribute
+-hence, we became familiar enough with the layout file format to allow us to just type the code directly, not using
+   the layout editor tool
+
+
+Saturday Morning
+
+-image names must be underscores not dashes.
+-learned that layouts do not need to have ids, instead they are found by name.
+-learned how the ListView organizes ids - there is a layout name for what gets created for each item, and an id for
+   the text widget instead the layout that is created for each item.
+-resizing images to appear correctly on the grid, while we got this to work, they didn't work on all size displays.
+
+
+Saturday Early Afternoon
+
+-custom adapter class for use in ListViews that are displaying more than strings.
+-creating a custom view
+-drawing on the custom view by creating one or more Paint objects (these hold the information such a pen color, stroke width, etc.)
+-using requestFeature if the view asks for a feature such as touchMode
+-using custom views in the layout editor
+-setting up directories in project for model files, and for view files
+-creating a model file for AccountDataRecord, and adjusting custom adapter class to use it.
+
+
+Saturday Late Afternoon
+
+-change the cash flow display in the AccountView to handle zero at center, then bar showing positive or negative
+-integrating the restaurant tip calculator project from AN01, this was called the PaymentActivity class
+-using the "create new activity" feature of IntelliJ/AndroidStudio, which sets up Activity class, fragment class, and
+   layout information.
+-changing this calculator to a financial calculator, such as determining payments.
+-linking the payment activity to a button on the cash flow fragment layout
+-sending information from one activity another, using EXTRA_INFO.
+-change the cash flow activity calculate net cash on hand at end, display at top of screen
+-change the color of text to indicate that net cash on hand at end is less than target of $1000
+-using the financial value formatter, which required that the value start with a $

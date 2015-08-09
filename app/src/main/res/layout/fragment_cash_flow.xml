@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              tools:context="com.example.android.sunshine.app.CashFlowActivity$PlaceholderFragment"
+              android:background="@color/background_material_dark">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Your net cash on hand:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/background_material_light"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/textView"/>
+
+        <View
+            android:layout_height="match_parent"
+            android:layout_width="35px"
+            android:textColor="@color/background_material_dark"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/separator1"/>
+
+        <TextView
+            android:text="+$3000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/background_material_light"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView_net_cash_flow"/>
+    </LinearLayout>
+
+    <view android:layout_width="wrap_content"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          class="com.example.android.sunshine.app.view.AccountView" android:id="@+id/view1"
+            />
+
+    <view android:layout_width="wrap_content"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          class="com.example.android.sunshine.app.view.AccountView" android:id="@+id/view2"
+            />
+
+    <view android:layout_width="wrap_content"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          class="com.example.android.sunshine.app.view.AccountView" android:id="@+id/view3"
+            />
+
+    <view android:layout_width="wrap_content"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          class="com.example.android.sunshine.app.view.AccountView" android:id="@+id/view4"
+            />
+
+    <view android:layout_width="wrap_content"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          class="com.example.android.sunshine.app.view.AccountView" android:id="@+id/view5"
+            />
+
+    <view android:layout_width="wrap_content"
+          android:layout_height="0dp"
+          android:layout_weight="1"
+          class="com.example.android.sunshine.app.view.AccountView" android:id="@+id/view6"
+            />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adjust Car Payment"
+            android:id="@+id/makePayment"
+            android:onClick="makePayment"/>
+
+</LinearLayout>

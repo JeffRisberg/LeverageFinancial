@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Leverage Financial</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bill_pay">Leverage Financial - Bill Pay</string>
+    <string name="title_activity_cash_flow">Leverage Financial - Your Cash Flow</string>
+    <string name="title_activity_savings">Leverage Financial - Your Savings</string>
+    <string name="title_activity_alerts">Leverage Financial - Your Alerts</string>
+    <string name="title_activity_payment">PaymentActivity</string>
+
+</resources>

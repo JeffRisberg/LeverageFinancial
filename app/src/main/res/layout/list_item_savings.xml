@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:background="@color/ripple_material_dark"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/list_item_savings_progress_bar"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="76"/>
+
+    <View
+            android:layout_height="match_parent"
+            android:layout_width="20px"
+            android:textColor="@color/background_material_dark"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/separator1"/>
+
+    <TextView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:gravity="center_vertical"
+            android:textColor="@color/background_material_light"
+            android:id="@+id/list_item_savings_text_view"/>
+
+    <View
+        android:layout_height="match_parent"
+        android:layout_width="20px"
+        android:textColor="@color/background_material_dark"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/separator2"/>
+
+    <TextView
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:gravity="center_vertical"
+        android:textColor="@color/background_material_light"
+        android:id="@+id/list_item_savings_detail_text_view"/>
+
+</LinearLayout>
