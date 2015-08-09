@@ -1,0 +1,22 @@
+introduce the app
+
+point out four functions
+
+go to savings screen
+
+go to bill pay screen
+
+go to cash flow.
+note that number is red and less than $1000.
+
+Edit car payment.
+
+Change the value from 750 to 600.
+
+Recalculate
+
+Accept new Value
+
+on Cash flow, number will no longer be red
+
+Check the alerts screen.
